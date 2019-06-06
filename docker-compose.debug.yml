@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  ai_scheduler:
+    image: ai_scheduler
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000

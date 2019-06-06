@@ -1,0 +1,22 @@
+# python virtual env files
+.venv/
+
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Flask 
+instance/
+
+# Unit tests / coverage tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+#vscode stuff
+.vscode/
